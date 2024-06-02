@@ -1,0 +1,130 @@
+
+.toggle-password {
+    position: relative;
+    top: 40px;
+    right:10px; 
+    transform: translateY(-50%);
+    cursor: pointer;
+    z-index: 1;
+} 
+
+
+
+
+
+/* 5 */
+.btn-5 {
+    width: 100%;
+    height: 40px;
+    line-height: 42px;
+    padding: 0;
+    border: none;
+    background: rgb(255,27,0);
+  background: linear-gradient(0deg, #1b00ff 0%, rgba(1, 3, 125, 0.646) 100%);
+  }
+  .btn-5:hover {
+    color: #1459ef;
+    background: transparent;
+     box-shadow:none;
+  }
+  .btn-5:before,
+  .btn-5:after{
+    content:'';
+    position:absolute;
+    top:0;
+    right:0;
+    height:2px;
+    width:0;
+    background: #1b00ff;
+    box-shadow:
+     -1px -1px 5px 0px #fff,
+     7px 7px 20px 0px #0003,
+     4px 4px 5px 0px #0002;
+    transition:400ms ease all;
+  }
+  .btn-5:after{
+    right:inherit;
+    top:inherit;
+    left:0;
+    bottom:0;
+  }
+  .btn-5:hover:before,
+  .btn-5:hover:after{
+    width:100%;
+    transition:800ms ease all;
+  }
+  
+
+
+
+  /* #card-element{
+    background: rgb(0,172,238);
+    background: linear-gradient(0deg, rgba(0,172,238,1) 0%, rgba(2,126,251,1) 100%);
+    width:150px;
+    height: 80px;
+    line-height: 42px;
+    padding: 0;
+    border: none;
+  }
+
+  #card-element span {
+    position: relative;
+    top: 20px;
+    left: 50px;
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+  #card-element:before,
+  #card-element:after {
+    position: absolute;
+    content: "";
+    right: 0;
+    top: 0;
+     background: rgba(2,126,251,1);
+    transition: all 0.3s ease;
+  }
+  #card-element:before {
+    height: 0%;
+    width: 2px;
+  }
+  #card-element:after {
+    width: 0%;
+    height: 2px;
+  }
+  #card-element:hover{
+     background: transparent;
+    box-shadow: none;
+  }
+  #card-element:hover:before {
+    height: 100%;
+  }
+  #card-element:hover:after {
+    width: 100%;
+  }
+  #card-element span:hover{
+     color: rgba(2,126,251,1);
+  }
+  #card-element span:before,
+  #card-element span:after {
+    position: absolute;
+    content: "";
+    left: 0;
+    bottom: 0;
+     background: rgba(2,126,251,1);
+    transition: all 0.3s ease;
+  }
+  #card-element span:before {
+    width: 2px;
+    height: 0%;
+  }
+  #card-element span:after {
+    width: 0%;
+    height: 2px;
+  }
+  #card-element span:hover:before {
+    height: 100%;
+  }
+  #card-element span:hover:after {
+    width: 100%;
+  } */

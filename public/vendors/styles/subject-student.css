@@ -1,0 +1,48 @@
+.cntTable{
+    position: relative;
+    top: 100px;
+    right: -210px;
+    width: 900px;
+    max-height: 1000px;
+    height: 800px;
+    background-color: white;
+    border-radius: 15px;     /* Adjust the value as needed for more or less rounding */
+    padding: 20px;
+}
+.titlev{
+    position: relative;
+    left: 50%;
+    color: red;
+
+}
+.subjTable{
+    max-width: 1500px;
+}
+
+
+.center-table {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.table-container {
+    width: 100%; 
+    max-width: 1400px; 
+
+}
+.table th, .table td {
+    text-align: center; 
+    vertical-align: middle;
+     
+}
+.table th {
+    width: 20%; 
+}
+.table td:nth-child(2) {
+    width: 30%; 
+}
+.table td:nth-child(3) {
+    width: 70%; 
+
+}
